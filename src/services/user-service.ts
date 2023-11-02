@@ -35,6 +35,6 @@ export class UserService {
   }
 
   public async listAll() {
-    return this.userRepository.findAll();
+    return await this.userRepository.findAll();
   }
 }
