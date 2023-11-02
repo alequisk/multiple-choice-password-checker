@@ -20,6 +20,8 @@ A API possui endpoints para gerenciamento simples de usuário:
     - **POST**: faz a verificação de autenticação da senha a partir de um array das opções de cada uma das teclas digitadas. É esperado o recebimento de um objecto da seguinte forma: `{login: string, keypads: [[int,int]] de tamanho 6}`.
 
 ## Exemplos de requisições
+
+Fazendo a autenticação:
 ```json
 {
 	"login": "alequisk",
@@ -29,6 +31,8 @@ A API possui endpoints para gerenciamento simples de usuário:
 }
 ```
 
+
+Criando um novo usuário:
 ```json
 {
 	"login": "alequisk",
